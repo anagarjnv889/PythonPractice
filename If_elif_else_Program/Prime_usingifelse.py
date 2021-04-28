@@ -7,7 +7,7 @@ if(n<0):
 elif n==1 or n==0:
     print("Neither prime nor composite number.")
 else:
-    for i in range(2,num):
+    for i in range(2,n):
         if n%i==0:
             flag=False
             break
